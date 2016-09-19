@@ -13,6 +13,6 @@ get '/' do
 EOS
 end
 
-get '/hello/:name' do 
-  "こんにちは" #{prams['name']}さん"
+get '/hello/:name' do
+  "こんにちは #{prams['name']}さん"
 end
