@@ -4,7 +4,7 @@ require 'sinatra'
 get '/' do
 <<EOS
 <html>
-  <title>AIIT Hello<title>
+  <title>AIIT Hello</title>
   <body>
     <h1>'Hello World! AIIT!'</h1>
     こんにちは！
