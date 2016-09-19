@@ -14,5 +14,5 @@ EOS
 end
 
 get '/hello/:name' do
-  "こんにちは #{prams['name']}さん"
+  "こんにちは #{params['name']}さん"
 end
